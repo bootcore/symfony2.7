@@ -1,4 +1,4 @@
-# sf2.7 日常开发
+# symfony2.7 Dev notes
 #### controller
 ```php
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -7,4 +7,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 ```php
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+
+/**
+ * @Route("/_exam")
+ * @Template()
+ */
+public function _examAction()
+{
+    // ...
+}
 ```
