@@ -106,7 +106,9 @@ use Doctrine\Common\Util\Debug;
 Debug::dump($data);
 ```
 #### symlink
-`php app/console assets:install --symlink --relative`
+```shell
+php app/console assets:install --symlink --relative
+```
 
 #### 自定义配置
 ```php
