@@ -77,6 +77,7 @@ public function detailAction(Post $post)
 }
 ```
 #### Doctrine ORM 生命周期管理
+```php
 /**
  * ...
  * @ORM\HasLifecycleCallbacks();
